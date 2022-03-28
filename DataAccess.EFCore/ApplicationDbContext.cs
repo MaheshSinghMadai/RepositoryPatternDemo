@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+//Data Access Layer
 namespace DataAccess.EFCore
 {
     public class ApplicationDbContext : DbContext
@@ -16,4 +17,5 @@ namespace DataAccess.EFCore
         public DbSet<Developer> Developers { get; set; }
         public DbSet<Project> Projects { get; set; }
     }
+
 }
