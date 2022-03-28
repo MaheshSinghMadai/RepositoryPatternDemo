@@ -30,14 +30,16 @@ namespace WebApi
         {
             services.AddDbContext<ApplicationDbContext>(options =>
            options.UseSqlServer(
-               Configuration.GetConnectionString("DefaultConnection"))
+               Configuration.GetConnectionString("DefaultConnection"),
+               b => b.MigrationsAssembly("WebApi"))
 
             );
 
             //region Repositories
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<IDeveloperRepository, DeveloperRepository>();
-            services.AddTransient<IProjectRepository, ProjectRepository>();           
+            services.AddTransient<IProjectRepository, ProjectRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             services.AddControllers();
         }

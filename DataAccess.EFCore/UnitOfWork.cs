@@ -7,7 +7,7 @@ namespace DataAccess.EFCore
 {
     public class UnitOfWork : IUnitOfWork
     {
-        protected ApplicationDbContext _db;
+        private readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
