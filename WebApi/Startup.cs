@@ -1,4 +1,5 @@
 using DataAccess.EFCore;
+using Domain.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,12 @@ namespace WebApi
                Configuration.GetConnectionString("DefaultConnection"))
 
             );
+
+            //region Repositories
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<IDeveloperRepository, DeveloperRepository>();
+            services.AddTransient<IProjectRepository, ProjectRepository>();           
+
             services.AddControllers();
         }
 
