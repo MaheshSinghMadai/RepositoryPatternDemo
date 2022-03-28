@@ -1495,6 +1495,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DataAccess.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.23"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.EFCore.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.23"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -5658,10 +5685,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "DataAccess.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess.EFCore/DataAccess.EFCore.csproj",
+      "msbuildProject": "../DataAccess.EFCore/DataAccess.EFCore.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DataAccess.EFCore >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.23",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.23",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.23"
@@ -5697,7 +5736,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj"
+            },
+            "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

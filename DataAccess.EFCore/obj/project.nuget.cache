@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QqP5tsW+xLF+az8j5nyRtj2b8QUq9OHR6TO4vk41C3Nyrz4kc/TKDtRcJCr1HlBZEZRnZrn7dzF8JroAjHNCWw==",
+  "dgSpecHash": "WhlpnNVxXY2nIm+XZ8z6UsoHtdunu25Pgj/4smHw1li/YpNezs0AMuG8QAP5iYEaTcQ/FeBW007KZDDnAXg5tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj",
   "expectedPackageFiles": [
