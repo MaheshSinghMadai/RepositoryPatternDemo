@@ -13,13 +13,10 @@ namespace DataAccess.EFCore
             _db = db;
             Developers = new DeveloperRepository(_db);
             Projects = new ProjectRepository(_db);
-
         }
 
         public IDeveloperRepository Developers { get; private set; }
-
         public IProjectRepository Projects { get; private set; }
-
         public int Complete()
         {
             return _db.SaveChanges();
