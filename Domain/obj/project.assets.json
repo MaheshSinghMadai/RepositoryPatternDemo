@@ -817,11 +817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Corion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

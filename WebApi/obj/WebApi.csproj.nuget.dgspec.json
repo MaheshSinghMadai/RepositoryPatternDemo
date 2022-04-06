@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Corion\\source\\repos\\WebApi\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj": {
+    "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\DataAccess.EFCore\\DataAccess.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\DataAccess.EFCore\\DataAccess.EFCore.csproj",
         "projectName": "DataAccess.EFCore",
-        "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj",
+        "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\DataAccess.EFCore\\DataAccess.EFCore.csproj",
         "packagesPath": "C:\\Users\\Corion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\obj\\",
+        "outputPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\DataAccess.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Corion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\Corion\\source\\repos\\WebApi\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Corion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -173,11 +173,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\DataAccess.EFCore\\DataAccess.EFCore.csproj"
+              "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\DataAccess.EFCore\\DataAccess.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\DataAccess.EFCore\\DataAccess.EFCore.csproj"
               },
-              "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Corion\\source\\repos\\WebApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Corion\\source\\repos\\MaheshNBIT\\RepositoryPatternDemo\\Domain\\Domain.csproj"
               }
             }
           }
